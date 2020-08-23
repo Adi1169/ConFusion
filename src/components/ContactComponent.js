@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
-    Button, Modal, ModalHeader, ModalBody,
-    Form, FormGroup, Input, Label } from 'reactstrap';
+    Button, Modal, ModalHeader, ModalBody,FormFeedback,Col,
+    Form, FormGroup, Input, Label,Breadcrumb,BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 class Contact extends Component {
